@@ -1,0 +1,1873 @@
+[07/Aug/2022 19:05:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03W1\x0f\x8c<.Ú\x8d\x11½P')
+[07/Aug/2022 19:05:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:23] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:24] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:24] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:26] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:26] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:27] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:05:27] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:05:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '3.7.46.175:8000'. You may need to add '3.7.46.175' to ALLOWED_HOSTS.
+Bad Request: /admin
+[07/Aug/2022 19:05:52] "GET /admin HTTP/1.1" 400 59914
+Invalid HTTP_HOST header: '3.7.46.175:8000'. You may need to add '3.7.46.175' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[07/Aug/2022 19:05:52] "GET /favicon.ico HTTP/1.1" 400 59918
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 07, 2022 - 19:04:20
+Django version 2.1.15, using settings 'samplewebsite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 325, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python3.7/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.7/site-packages/django/conf/__init__.py", line 44, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.7/site-packages/django/conf/__init__.py", line 107, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib64/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/docker-practice/samplewebsite/settings.py", line 31
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+[07/Aug/2022 19:09:51] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:51] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:51] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:51] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:55] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:55] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x06')
+[07/Aug/2022 19:09:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:55] code 400, message Bad request version ('³\x88\x9fd\x81')
+[07/Aug/2022 19:09:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:55] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:55] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:09:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:09:55] code 400, message Bad request version ('\x94\x8a\x95\x03')
+[07/Aug/2022 19:09:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:10:12] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:10:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:10:12] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[07/Aug/2022 19:10:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:10:12] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:10:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:10:12] code 400, message Bad request version ('\x8aÃ@ìþ÷L')
+[07/Aug/2022 19:10:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 07, 2022 - 19:08:56
+Django version 2.1.15, using settings 'samplewebsite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /admin
+[07/Aug/2022 19:12:59] "GET /admin HTTP/1.1" 400 59051
+[07/Aug/2022 19:13:20] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:13:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:20] code 400, message Bad request version ('â\x02óÝeM\x86ÂBÅ\x86\x08Tv\x93´\x00')
+[07/Aug/2022 19:13:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:20] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:13:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:20] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:13:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:21] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03CÁª¿p')
+[07/Aug/2022 19:13:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:21] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:13:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:21] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:13:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:13:21] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:13:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:37] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:37] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:37] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:37] code 400, message Bad request version ('Â3\x19Æ\x01¬Lè²SzõÛ8,\x91Ã(Ð½¤¬\x96')
+[07/Aug/2022 19:14:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:37] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:37] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:40] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:40] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x7f\\½ÙÕ')
+[07/Aug/2022 19:14:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:40] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:14:40] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:14:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:50] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:15:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:50] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:15:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:50] code 400, message Bad request version ('SFªÙbÔ9Ûµ×¤\x95\x00')
+[07/Aug/2022 19:15:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:50] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03V')
+[07/Aug/2022 19:15:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:55] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[07/Aug/2022 19:15:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:55] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:15:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:55] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:15:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0fä\x93;')
+[07/Aug/2022 19:15:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:57] code 400, message Bad request version ('¼ã\x8b¨\x84xy}I')
+[07/Aug/2022 19:15:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:57] code 400, message Bad request version ('\x03ÓçeÐîf\x81á¼\x0fü\x05')
+[07/Aug/2022 19:15:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:57] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:15:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:15:57] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:15:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:25] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Æo÷ä\x01O@hj\x1bë\x1aôÌÿRåzãL|9?7`Á¯»t²þk')
+[07/Aug/2022 19:16:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:25] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:25] code 400, message Bad request version ('e\x84\x9e«ùM¨/')
+[07/Aug/2022 19:16:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:27] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:27] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:28] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:28] code 400, message Bad request version ('\x18lã\x8fe')
+[07/Aug/2022 19:16:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:29] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03k')
+[07/Aug/2022 19:16:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:29] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:16:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:16:29] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[07/Aug/2022 19:16:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /contact
+[07/Aug/2022 19:17:05] "GET /contact HTTP/1.1" 400 59073
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 07, 2022 - 19:15:41
+Django version 2.1.15, using settings 'samplewebsite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[07/Aug/2022 19:24:51] code 400, message Bad request version ('\x19@Æ\x94!ø(')
+[07/Aug/2022 19:24:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:51] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ø%)ËJÚzHT\x93')
+[07/Aug/2022 19:24:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03»GØ')
+[07/Aug/2022 19:24:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:52] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:52] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:52] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:52] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:53] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:53] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:53] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:24:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:24:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x06×\x15¦ª\x1aÿ÷þÔ')
+[07/Aug/2022 19:24:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:28:54] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:28:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:28:54] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:28:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:28:54] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:28:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:28:54] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:28:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:29:05] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:29:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:29:05] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:29:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:29:05] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:29:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:29:05] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:29:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:29:41] "GET /admin HTTP/1.1" 301 0
+[07/Aug/2022 19:29:41] "GET /admin/ HTTP/1.1" 302 0
+[07/Aug/2022 19:29:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/base.css
+[07/Aug/2022 19:29:41] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/login.css
+[07/Aug/2022 19:29:41] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/responsive.css
+[07/Aug/2022 19:29:41] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /favicon.ico
+[07/Aug/2022 19:29:42] "GET /favicon.ico HTTP/1.1" 404 2088
+[07/Aug/2022 19:29:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/login.css
+[07/Aug/2022 19:29:53] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+[07/Aug/2022 19:29:53] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[07/Aug/2022 19:29:53] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+[07/Aug/2022 19:29:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/base.css
+[07/Aug/2022 19:29:55] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[07/Aug/2022 19:29:55] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/login.css
+[07/Aug/2022 19:29:55] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+[07/Aug/2022 19:30:15] "GET /contact HTTP/1.1" 301 0
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ec2-user/docker-practice/home/views.py", line 12, in contact
+    return render(request, "contact.html")
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: contact.html
+[07/Aug/2022 19:30:15] "GET /contact/ HTTP/1.1" 500 76238
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 07, 2022 - 19:19:41
+Django version 2.1.15, using settings 'samplewebsite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 07, 2022 - 19:30:56
+Django version 2.1.15, using settings 'samplewebsite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[07/Aug/2022 19:39:01] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:01] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:02] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:02] code 400, message Bad request version ('¿úk\x908\x95ÓäS\x04RP\x92Ï\x87\x97\x16(\xad\x94Ù-')
+[07/Aug/2022 19:39:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:03] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:03] code 400, message Bad request version ('t16½')
+[07/Aug/2022 19:39:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:03] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:03] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:33] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:33] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:34] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:34] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:34] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:34] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:44] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:44] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:44] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93JJ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:39:44] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:39:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:42:37] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:42:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:42:37] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:42:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:42:37] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[07/Aug/2022 19:42:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:42:38] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[07/Aug/2022 19:42:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2022 19:43:04] "GET /contact/ HTTP/1.1" 200 1556
+[07/Aug/2022 19:43:36] "GET /admin/ HTTP/1.1" 302 0
+[07/Aug/2022 19:43:37] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/base.css
+[07/Aug/2022 19:43:37] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[07/Aug/2022 19:43:37] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/login.css
+[07/Aug/2022 19:43:37] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+[07/Aug/2022 19:44:24] "POST /contact/ HTTP/1.1" 200 1556
+[07/Aug/2022 19:45:39] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:39] "GET /admin/ HTTP/1.1" 200 3706
+Not Found: /admin/static/admin/css/dashboard.css
+[07/Aug/2022 19:45:39] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+Not Found: /admin/static/admin/css/base.css
+[07/Aug/2022 19:45:39] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/responsive.css
+[07/Aug/2022 19:45:39] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/base.css HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/changelists.css HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/responsive.css HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/core.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/actions.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/urlify.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/ HTTP/1.1" 200 3894
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/ HTTP/1.1" 200 3900
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/ HTTP/1.1" 200 3900
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:52] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:53] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:53] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:53] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 4049
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 4049
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 4061
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 3892
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 3895
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 3899
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 3894
+[07/Aug/2022 19:45:53] "GET /admin/ HTTP/1.1" 200 3910
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/ HTTP/1.1" 200 5690
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/base.css HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/forms.css HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/responsive.css HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/core.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/actions.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/urlify.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/change_form.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js HTTP/1.1" 301 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:45:59] "GET /admin/home/contact/5/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 3903
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 3904
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 3909
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 4052
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 4055
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 4055
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 4073
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 3923
+[07/Aug/2022 19:46:00] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:01] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:01] "GET /admin/ HTTP/1.1" 200 3919
+[07/Aug/2022 19:46:01] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:01] "GET /admin/ HTTP/1.1" 200 3913
+[07/Aug/2022 19:46:05] "GET /admin/home/contact/5/history/ HTTP/1.1" 200 1975
+[07/Aug/2022 19:46:06] "GET /admin/home/contact/5/history/static/admin/css/base.css HTTP/1.1" 301 0
+[07/Aug/2022 19:46:06] "GET /admin/home/contact/5/history/static/admin/css/responsive.css HTTP/1.1" 301 0
+[07/Aug/2022 19:46:06] "GET /admin/home/contact/5/history/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:06] "GET /admin/home/contact/5/history/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:06] "GET /admin/home/contact/5/history/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:06] "GET /admin/home/contact/5/history/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:07] "GET /admin/ HTTP/1.1" 200 3904
+[07/Aug/2022 19:46:07] "GET /admin/ HTTP/1.1" 200 3904
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/ HTTP/1.1" 200 5690
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/ HTTP/1.1" 200 3904
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:13] "GET /admin/ HTTP/1.1" 200 3909
+[07/Aug/2022 19:46:13] "GET /admin/home/contact/5/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:14] "GET /admin/home/contact/5/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:14] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:14] "GET /admin/home/contact/5/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:14] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3706
+[07/Aug/2022 19:46:14] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3901
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3901
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3901
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3901
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3904
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:14] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:15] "GET /admin/ HTTP/1.1" 200 3913
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:17] "GET /admin/ HTTP/1.1" 200 3899
+[07/Aug/2022 19:46:17] "GET /admin/ HTTP/1.1" 200 3894
+[07/Aug/2022 19:46:17] "GET /admin/ HTTP/1.1" 200 3894
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 3900
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 3900
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 3900
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 3914
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 3895
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 4056
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 4056
+[07/Aug/2022 19:46:18] "GET /admin/ HTTP/1.1" 200 4040
+[07/Aug/2022 19:46:20] "GET /admin/home/contact/1/change/ HTTP/1.1" 200 5687
+[07/Aug/2022 19:46:20] "GET /admin/home/contact/1/change/static/admin/css/base.css HTTP/1.1" 301 0
+[07/Aug/2022 19:46:20] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:20] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:20] "GET /admin/home/contact/1/change/static/admin/css/forms.css HTTP/1.1" 301 0
+[07/Aug/2022 19:46:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[07/Aug/2022 19:46:20] "GET /admin/home/contact/1/change/static/admin/css/responsive.css HTTP/1.1" 301 0
+[07/Aug/2022 19:46:21] "GET /admin/home/contact/1/change/static/admin/js/core.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:21] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:21] "GET /admin/home/contact/1/change/static/admin/js/actions.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:21] "GET /admin/home/contact/1/change/static/admin/js/urlify.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:21] "GET /admin/home/contact/1/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:21] "GET /admin/home/contact/1/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/change_form.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js HTTP/1.1" 301 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:22] "GET /admin/home/contact/1/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/ HTTP/1.1" 200 3903
+[07/Aug/2022 19:46:23] "GET /admin/ HTTP/1.1" 200 3909
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:23] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 3909
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 4060
+[07/Aug/2022 19:46:24] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 4064
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 4064
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 4064
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 3706
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 3706
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 3919
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:24] "GET /admin/ HTTP/1.1" 200 4220
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:26] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:27] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:27] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:27] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:27] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3894
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3908
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3899
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3899
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3894
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3914
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3914
+[07/Aug/2022 19:46:27] "GET /admin/ HTTP/1.1" 200 3910
+Not Found: /
+[08/Aug/2022 00:04:36] "GET / HTTP/1.1" 404 2037
+Not Found: /
+[08/Aug/2022 01:26:30] "GET / HTTP/1.1" 404 2037
+Not Found: /favicon.ico
+[08/Aug/2022 01:36:53] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /http:/example.com/
+[08/Aug/2022 04:39:37] "GET http://example.com/ HTTP/1.1" 404 1661
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.221', 54566)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Aug/2022 05:40:55] "GET / HTTP/1.1" 404 2037
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.221', 58948)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Aug/2022 05:40:56] "GET / HTTP/1.1" 404 2037
+[08/Aug/2022 05:40:56] code 505, message Invalid HTTP version (2.0)
+[08/Aug/2022 05:40:56] "PRI * HTTP/2.0" 505 -
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/ HTTP/1.1" 200 5690
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/home/contact/5/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3917
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3917
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:07] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:09:08] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:09:08] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:08] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:08] "GET /admin/ HTTP/1.1" 200 3919
+[08/Aug/2022 06:09:08] "GET /admin/ HTTP/1.1" 200 3913
+[08/Aug/2022 06:09:08] "GET /admin/ HTTP/1.1" 200 4072
+[08/Aug/2022 06:09:10] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 4055
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 4055
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 4057
+[08/Aug/2022 06:09:11] "GET /admin/ HTTP/1.1" 200 4047
+[08/Aug/2022 06:09:12] "GET /admin/ HTTP/1.1" 200 4047
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/ HTTP/1.1" 200 5695
+[08/Aug/2022 06:09:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/css/base.css HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/css/forms.css HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/css/responsive.css HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/js/core.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/js/actions.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:13] "GET /admin/home/contact/4/change/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/urlify.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/prepopulate_init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/change_form.js HTTP/1.1" 301 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/home/contact/4/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3917
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 4058
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:14] "GET /admin/ HTTP/1.1" 200 3923
+[08/Aug/2022 06:09:15] "GET /admin/ HTTP/1.1" 200 3923
+[08/Aug/2022 06:09:15] "GET /admin/ HTTP/1.1" 200 3923
+[08/Aug/2022 06:09:15] "GET /admin/ HTTP/1.1" 200 4072
+[08/Aug/2022 06:09:15] "GET /admin/ HTTP/1.1" 200 4077
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:17] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:17] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:17] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:09:17] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:09:18] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:09:18] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:09:18] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:09:18] "GET /admin/ HTTP/1.1" 200 4040
+[08/Aug/2022 06:09:18] "GET /admin/ HTTP/1.1" 200 4040
+[08/Aug/2022 06:09:19] "GET /admin/home/contact/1/change/ HTTP/1.1" 200 5687
+[08/Aug/2022 06:09:19] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:19] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:19] "GET /admin/home/contact/1/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:19] "GET /admin/home/contact/1/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:09:19] "GET /admin/home/contact/1/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3923
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:09:20] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:09:21] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:09:21] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:09:21] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:09:21] "GET /admin/ HTTP/1.1" 200 3919
+[08/Aug/2022 06:09:21] "GET /admin/ HTTP/1.1" 200 4058
+[08/Aug/2022 06:09:21] "GET /admin/ HTTP/1.1" 200 4063
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:22] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:09:23] "GET /admin/ HTTP/1.1" 200 3899
+Not Found: /
+[08/Aug/2022 06:10:14] "GET / HTTP/1.1" 404 2037
+Not Found: /
+[08/Aug/2022 06:10:33] "GET / HTTP/1.1" 404 2037
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:10:46] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:10:46] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:10:46] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:10:46] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:10:47] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:10:47] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:10:47] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:10:47] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:10:47] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:10:47] "GET /admin/ HTTP/1.1" 200 4058
+Not Found: /
+[08/Aug/2022 06:10:53] "GET / HTTP/1.1" 404 2037
+[08/Aug/2022 06:11:18] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:11:19] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:11:19] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:11:20] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:11:20] "GET /admin/ HTTP/1.1" 200 4046
+[08/Aug/2022 06:11:20] "GET /admin/ HTTP/1.1" 200 4056
+[08/Aug/2022 06:11:40] "GET /contact/ HTTP/1.1" 200 1556
+[08/Aug/2022 06:12:14] "POST /contact/ HTTP/1.1" 200 1556
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/ HTTP/1.1" 200 5483
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:12:28] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:12:29] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:12:29] "GET /admin/ HTTP/1.1" 200 4057
+[08/Aug/2022 06:12:29] "GET /admin/ HTTP/1.1" 200 4035
+[08/Aug/2022 06:12:29] "GET /admin/ HTTP/1.1" 200 4046
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/ HTTP/1.1" 200 5700
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/base.css HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/forms.css HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/responsive.css HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/core.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/actions.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/urlify.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/change_form.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/prepopulate_init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/home/contact/6/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:31] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 3917
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/home/contact/6/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4058
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4057
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4079
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4064
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4060
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4060
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4083
+[08/Aug/2022 06:12:32] "GET /admin/ HTTP/1.1" 200 4072
+[08/Aug/2022 06:12:33] "GET /admin/ HTTP/1.1" 200 4072
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/ HTTP/1.1" 200 1975
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/static/admin/css/responsive.css HTTP/1.1" 301 0
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/static/admin/css/base.css HTTP/1.1" 301 0
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:38] "GET /admin/home/contact/6/history/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:38] "GET /admin/ HTTP/1.1" 200 3910
+[08/Aug/2022 06:12:38] "GET /admin/ HTTP/1.1" 200 3910
+[08/Aug/2022 06:12:45] "GET /admin/home/contact/ HTTP/1.1" 200 5483
+[08/Aug/2022 06:12:45] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:45] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:12:45] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:45] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:45] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 4057
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 4040
+[08/Aug/2022 06:12:46] "GET /admin/ HTTP/1.1" 200 4040
+[08/Aug/2022 06:13:03] "GET /admin/ HTTP/1.1" 200 3706
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 06:13:03] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 06:13:03] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 06:13:03] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+[08/Aug/2022 06:17:31] "GET /admin/ HTTP/1.1" 200 3706
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 06:17:31] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 06:17:31] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 06:17:31] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+[08/Aug/2022 06:19:20] "GET /contact HTTP/1.1" 301 0
+[08/Aug/2022 06:19:21] "GET /contact/ HTTP/1.1" 200 1556
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:21] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:21] "GET /favicon.ico HTTP/1.1" 404 2088
+----------------------------------------
+Exception happened during processing of request from ('49.37.148.230', 49218)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.37.148.230', 49217)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:52] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:19:52] "GET /admin/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:52] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:19:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:53] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:19:53] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:19:53] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:19:53] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:53] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:19:53] "GET /favicon.ico HTTP/1.1" 404 2088
+----------------------------------------
+Exception happened during processing of request from ('49.37.148.230', 1062)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Aug/2022 06:24:02] "GET / HTTP/1.1" 404 2037
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/ HTTP/1.1" 200 5483
+[08/Aug/2022 06:24:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:22] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3900
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3892
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 4042
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 4040
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 4035
+[08/Aug/2022 06:24:23] "GET /admin/ HTTP/1.1" 200 4051
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/ HTTP/1.1" 200 5700
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:29] "GET /admin/home/contact/6/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/home/contact/6/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3904
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:30] "GET /admin/ HTTP/1.1" 200 4069
+[08/Aug/2022 06:24:31] "GET /admin/ HTTP/1.1" 200 4069
+[08/Aug/2022 06:24:31] "GET /admin/ HTTP/1.1" 200 4064
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/ HTTP/1.1" 200 5483
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:24:32] "GET /admin/ HTTP/1.1" 200 3914
+[08/Aug/2022 06:24:33] "GET /admin/ HTTP/1.1" 200 3895
+[08/Aug/2022 06:24:33] "GET /admin/ HTTP/1.1" 200 3910
+[08/Aug/2022 06:24:33] "GET /admin/ HTTP/1.1" 200 3899
+[08/Aug/2022 06:24:33] "GET /admin/ HTTP/1.1" 200 3894
+[08/Aug/2022 06:24:38] "GET /admin/home/contact/1/change/ HTTP/1.1" 200 5687
+[08/Aug/2022 06:24:38] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:38] "GET /admin/home/contact/1/change/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:24:38] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:38] "GET /admin/home/contact/1/change/static/admin/css/forms.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:38] "GET /admin/home/contact/1/change/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/css/forms.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/change_form.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/prepopulate_init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/home/contact/1/change/static/admin/js/change_form.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:39] "GET /admin/ HTTP/1.1" 200 3908
+[08/Aug/2022 06:24:39] "GET /admin/ HTTP/1.1" 200 3917
+[08/Aug/2022 06:24:39] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 3923
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 4053
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 4053
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 4069
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 4058
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 4077
+[08/Aug/2022 06:24:40] "GET /admin/ HTTP/1.1" 200 4072
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/ HTTP/1.1" 200 3210
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/core.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/css/responsive.css HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/css/base.css HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/actions.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/urlify.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:46] "GET /admin/home/contact/1/delete/static/admin/js/cancel.js HTTP/1.1" 301 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/cancel.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 3909
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/home/contact/1/delete/static/admin/js/cancel.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 3901
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 4058
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 4060
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 4060
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 3903
+[08/Aug/2022 06:24:47] "GET /admin/ HTTP/1.1" 200 4056
+[08/Aug/2022 06:24:48] "GET /admin/ HTTP/1.1" 200 4067
+[08/Aug/2022 06:24:48] "GET /admin/ HTTP/1.1" 200 4073
+[08/Aug/2022 06:24:48] "GET /admin/ HTTP/1.1" 200 4051
+[08/Aug/2022 06:24:51] "POST /admin/home/contact/1/delete/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/ HTTP/1.1" 200 5413
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/ HTTP/1.1" 200 4182
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/ HTTP/1.1" 200 4189
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:51] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:52] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4188
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4187
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4187
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4180
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4324
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4343
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 3994
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4345
+[08/Aug/2022 06:24:52] "GET /admin/ HTTP/1.1" 200 4345
+[08/Aug/2022 06:25:51] "GET /admin/ HTTP/1.1" 200 3994
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 06:25:51] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 06:25:51] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 06:25:51] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/ HTTP/1.1" 200 6604
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/changelists.css HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/base.css HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/responsive.css HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/core.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/actions.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/base.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/urlify.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/ HTTP/1.1" 200 4186
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/ HTTP/1.1" 200 4179
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:01] "GET /admin/ HTTP/1.1" 200 4185
+[08/Aug/2022 06:26:01] "GET /admin/auth/user/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4184
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4321
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4193
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4180
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4199
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4195
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4179
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4179
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/img/search.svg HTTP/1.1" 301 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/img/icon-yes.svg HTTP/1.1" 301 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/img/icon-yes.svg/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/img/search.svg/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/img/icon-yes.svg/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/auth/user/static/admin/img/search.svg/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:26:02] "GET /admin/ HTTP/1.1" 200 4183
+[08/Aug/2022 06:26:03] "GET /admin/ HTTP/1.1" 200 4181
+[08/Aug/2022 06:26:29] "GET /admin/ HTTP/1.1" 200 3994
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 06:26:29] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 06:26:29] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 06:26:29] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+[08/Aug/2022 06:39:12] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:39:12] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:39:12] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:39:12] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:13] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:13] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:39:21] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:39:21] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:39:21] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:39:21] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:22] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:22] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:39:28] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:39:29] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:39:29] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:39:29] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:29] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:29] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:39:37] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:39:37] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:39:37] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:39:37] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:38] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:38] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:39:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:39:45] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:39:45] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:39:45] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:46] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:46] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:39:50] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:39:50] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:39:50] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:39:50] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:50] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:39:50] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:39:57] "GET /contact HTTP/1.1" 301 0
+[08/Aug/2022 06:39:57] "GET /contact/ HTTP/1.1" 200 1556
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:00] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:40:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:40:04] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:40:04] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:40:04] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:04] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:05] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:40:13] "GET /admin HTTP/1.1" 301 0
+[08/Aug/2022 06:40:13] "GET /admin/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:14] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:40:15] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:40:16] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:40:16] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+[08/Aug/2022 06:40:21] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:40:21] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:40:21] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:40:21] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:21] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:21] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:40:23] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:25] "GET /admin/ HTTP/1.1" 200 3994
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 06:40:25] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 06:40:25] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 06:40:26] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/ HTTP/1.1" 200 5253
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/base.css HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/changelists.css HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/jquery.init.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/responsive.css HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/base.css/ HTTP/1.1" 302 0
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:40:29] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:40:29] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/changelists.css/ HTTP/1.1" 302 0
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:40:29] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/responsive.css/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/core.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/actions.js HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/urlify.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/base.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/prepopulate.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/changelists.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:29] "GET /admin/ HTTP/1.1" 200 4182
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:29] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/css/responsive.css/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:29] "GET /admin/home/contact/static/admin/js/jquery.init.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/actions.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/core.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 301 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/urlify.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4329
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/vendor/jquery/jquery.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/prepopulate.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/admin/RelatedObjectLookups.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/jquery.init.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4189
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/actions.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/core.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4196
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4202
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4475
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/vendor/xregexp/xregexp.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4471
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4180
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/prepopulate.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/home/contact/static/admin/js/urlify.js/change/ HTTP/1.1" 302 0
+[08/Aug/2022 06:40:30] "GET /admin/ HTTP/1.1" 200 4198
+[08/Aug/2022 06:40:31] "GET /admin/ HTTP/1.1" 200 4187
+[08/Aug/2022 06:40:31] "GET /admin/ HTTP/1.1" 200 4330
+[08/Aug/2022 06:40:39] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:40:39] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/base.css
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:40:39] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+[08/Aug/2022 06:40:39] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:39] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:40:39] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 06:41:00] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1977
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:41:00] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:41:00] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:41:00] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /favicon.ico
+[08/Aug/2022 06:41:00] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:41:00] "GET /favicon.ico HTTP/1.1" 404 2088
+----------------------------------------
+Exception happened during processing of request from ('49.37.148.230', 49315)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Aug/2022 06:42:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+----------------------------------------
+Exception happened during processing of request from ('49.37.148.230', 49379)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[08/Aug/2022 06:46:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1816
+Not Found: /admin/login/static/admin/css/login.css
+[08/Aug/2022 06:46:00] "GET /admin/login/static/admin/css/login.css HTTP/1.1" 404 4072
+Not Found: /admin/login/static/admin/css/responsive.css
+[08/Aug/2022 06:46:00] "GET /admin/login/static/admin/css/responsive.css HTTP/1.1" 404 4087
+Not Found: /admin/login/static/admin/css/base.css
+[08/Aug/2022 06:46:00] "GET /admin/login/static/admin/css/base.css HTTP/1.1" 404 4069
+Not Found: /favicon.ico
+[08/Aug/2022 06:46:00] "GET /favicon.ico HTTP/1.1" 404 2088
+Not Found: /favicon.ico
+[08/Aug/2022 06:46:00] "GET /favicon.ico HTTP/1.1" 404 2088
+[08/Aug/2022 07:24:34] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Aug/2022 07:24:34] "    c                           " 400 -
+[08/Aug/2022 07:32:52] code 400, message Bad request version ('À\x14À')
+[08/Aug/2022 07:32:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Aug/2022 07:32:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03"$d\x16U\x03ÄY\x03¨\x99óÓÎ¨\x97\x0e¡\x19öZ|\x80Îâ\x199ñC_ÑÙ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[08/Aug/2022 07:32:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[08/Aug/2022 07:32:53] "GET / HTTP/1.1" 404 2037
+[08/Aug/2022 08:08:03] "GET /admin/ HTTP/1.1" 200 3994
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 08:08:03] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 08:08:03] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 08:08:03] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+[08/Aug/2022 08:08:04] "GET /admin/ HTTP/1.1" 200 3994
+Not Found: /admin/static/admin/css/base.css
+[08/Aug/2022 08:08:05] "GET /admin/static/admin/css/base.css HTTP/1.1" 404 4051
+Not Found: /admin/static/admin/css/dashboard.css
+[08/Aug/2022 08:08:05] "GET /admin/static/admin/css/dashboard.css HTTP/1.1" 404 4066
+Not Found: /admin/static/admin/css/responsive.css
+[08/Aug/2022 08:08:05] "GET /admin/static/admin/css/responsive.css HTTP/1.1" 404 4069
+[08/Aug/2022 08:08:07] "POST /contact/ HTTP/1.1" 200 1556
+[08/Aug/2022 08:08:08] "POST /contact/ HTTP/1.1" 200 1556
